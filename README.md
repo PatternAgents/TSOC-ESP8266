@@ -13,7 +13,7 @@ and an RGB LED for USER status, with additonal LEDS for Battery Charger Status a
 ---------------------------------------
 
 [![thingSoC TSOC-ESP8266](http://patternagents.github.io/img/projects/TSOC-ESP8266/TSOC-ESP8266_top.png)  
-*TSOC-ESP8266*](https://github.com/PatternAgents/TSOC-ESP8266)
+*TSOC-ESP8266*](https://github.com/PatternAgents/TSOC-ESP8266/)
 
 * [Supported by the Arduino IDE](https://www.arduino.cc/) 
 * [Wi-Fi and Over the Air Program Upgrade/Download](https://github.com/esp8266/Arduino/blob/master/doc/ota_updates/ota_updates.md)
