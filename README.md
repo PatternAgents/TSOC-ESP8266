@@ -37,11 +37,11 @@ and an RGB LED for USER status, with additonal LEDS for Battery Charger Status a
 
 ## Documentation Index <a name="documentation_index"/>
 
-[TSOC-ESP8266 Quick Start Guide](TSOC-ESP8266_qsg.md)
+[TSOC-ESP8266 Quick Start Guide](https://github.com/PatternAgents/TSOC-ESP8266/blob/master/TSOC-ESP8266/docs/TSOC-ESP8266_qsg.md)
 
-[TSOC-ESP8266 Getting Started Guide](TSOC-ESP8266_ug.md)
+[TSOC-ESP8266 Getting Started Guide](https://github.com/PatternAgents/TSOC-ESP8266/blob/master/TSOC-ESP8266/docs/TSOC-ESP8266_ug.md)
 
-[TSOC-ESP8266 Theory of Operation](TSOC-ESP8266_theory.md)
+[TSOC-ESP8266 Theory of Operation](https://github.com/PatternAgents/TSOC-ESP8266/blob/master/TSOC-ESP8266/docs/TSOC-ESP8266_theory.md)
 
 [For ESP8266 Documentation, esp. IDE/toolchain](https://github.com/esp8266/Arduino)
 
