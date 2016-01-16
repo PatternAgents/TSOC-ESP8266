@@ -4,8 +4,9 @@
 
 **TSOC-ESP8266** includes an ESP8266 Wi-Fi module, 
 along with an [PCA8575 I/O Expander](http://www.nxp.com/documents/data_sheet/PCA8575.pdf) 
-to provide an additional 16 Input/Output pins for the thingSoC Standard Socket,
-and a Color RGB LED for USER status, with additonal, individual LEDS for Battery Charger Status and USB Status.
+to provide an additional 16 Input/Output pins for the thingSoC Standard Socket, and a Color RGB LED for USER status, 
+with additonal, individual LEDS for Battery Charger Status and USB Status.
+
 ---------------------------------------
 
 [![thingSoC TSOC-ESP8266](http://patternagents.github.io/img/projects/TSOC-ESP8266/TSOC-ESP8266_top.png)  
