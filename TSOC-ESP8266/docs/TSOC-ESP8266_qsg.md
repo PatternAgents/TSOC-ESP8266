@@ -14,6 +14,9 @@ The **TSOC-ESP8266**  Quick Start Guide is a series of quick steps to try out yo
 3. Open you web browser and connect to the URL - http://www.TSOC-ESP8266.local
 4. Follow the instructions on your sreeen to configure the TSOC-ESP8266 for your network and application.
 
+[![thingSoC TSOC-ESP8266](http://patternagents.github.io/img/projects/TSOC-ESP8266/TSOC-ESP8266_top.png)  
+*TSOC-ESP8266*](https://github.com/PatternAgents/TSOC-ESP8266/)
+
 ---------------------------------------
 
 ## Documentation Index <a name="documentation_index"/>
