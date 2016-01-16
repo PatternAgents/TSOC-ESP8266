@@ -1,11 +1,17 @@
 # TSOC-ESP8266 Theory of Operation
 
-**TSOC-ESP8266** is a Wi-Fi Embedded Module, **thingSoC Reference Design.** 
+**TSOC-ESP8266** is a self contained, Embedded Wi-Fi Module, with integated Li-Po battery control and charging.
+
+**TSOC-ESP8266** includes an ESP8266 Wi-Fi module, 
+along with an [PCA8575 I/O Expander](http://www.nxp.com/documents/data_sheet/PCA8575.pdf) 
+to provide an additional 16 Input/Output pins for the thingSoC Standard Socket,
+and a Color RGB LED for USER status, with additonal, individual LEDS for Battery Charger Status and USB Status.
 
 ---------------------------------------
 
 ## Theory of Operation <a name="theory_index"/>
 
+The **TSOC-ESP8266** was designed to support either USB powered operation and/or battery powered operation.
 
 ![Schematic Page A](https://raw.githubusercontent.com/PatternAgents/TSOC-ESP8266/master/TSOC-ESP8266/docs/images/sch_page_1.png "Schematic Page A")
 

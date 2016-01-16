@@ -1,6 +1,10 @@
 # TSOC-ESP8266 User Guide
 
-**TSOC-ESP8266** is a Wi-Fi Embedded Module, **thingSoC Reference Design.** 
+**TSOC-ESP8266** is a self contained, Embedded Wi-Fi Module, with integated Li-Po battery control and charging.
+
+**TSOC-ESP8266** includes an ESP8266-07(12) format Wi-Fi module, 
+along with an GPIO Expander to provide an additional 16 Input/Output pins for the thingSoC Standard Socket,
+and an RGB LED for USER status; with additonal, individual LEDS for Battery Charger Status and USB Status.
 
 ---------------------------------------
 
