@@ -17,10 +17,6 @@ with additonal, individual LEDS for Battery Charger Status and USB Status.
 * [thingSoC Compliant Module](http://www.thingsoc.com)
 * [Mikrobus Compatible Module](http://www.mikroe.com/mikrobus/) 
 * [ESP8266 Wi-Fi Module 802.11 b/g/n](https://github.com/esp8266/Arduino/blob/master/doc/reference.md#table-of-contents)
-* +19.5dBm output power in 802.11b mode
-* Wi-Fi Direct (P2P), soft-AP
-* Integrated TCP/IP protocol stack
-* Internal Antenna and U.FL external Antenna Support
 * [RGB Color LED for status](http://media.digikey.com/pdf/Data%20Sheets/CREE%20Power/CLV1A-FKB_Rev5.pdf)
 * [PCA8575 I/O Expander for 16 additional GPIO lines](http://www.nxp.com/documents/data_sheet/PCA8575.pdf)
 * [Analog Multiplexor and 3.3 Volt Analog Input Conditioning](https://www.fairchildsemi.com/datasheets/NC/NC7SZ157.pdf)
@@ -29,6 +25,10 @@ with additonal, individual LEDS for Battery Charger Status and USB Status.
 * [High Speed (1mB) USB Upload Capability](http://www.cypress.com/file/139881/download)
 * [USB 2.1 BCD-Battery Charger Detect Protocol Compatibility](http://www.cypress.com/file/139881/download)
 * [Arduino IDE Board Manager Support](https://github.com/PatternAgents/Arduino_Boards)
+* +19.5dBm output power in 802.11b mode
+* Wi-Fi Direct (P2P), soft-AP
+* Integrated TCP/IP protocol stack
+* Internal Antenna and U.FL external Antenna Support
 
 ---------------------------------------
 
