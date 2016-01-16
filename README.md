@@ -37,6 +37,12 @@ and an RGB LED for USER status, with additonal LEDS for Battery Charger Status a
 
 ## Documentation Index <a name="documentation_index"/>
 
+[TSOC-ESP8266 Quick Start Guide](TSOC-ESP8266_qsg.md)
+
+[TSOC-ESP8266 Getting Started Guide](TSOC-ESP8266_ug.md)
+
+[TSOC-ESP8266 Theory of Operation](TSOC-ESP8266_theory.md)
+
 [For ESP8266 Documentation, esp. IDE/toolchain](https://github.com/esp8266/Arduino)
 
 [thingSoC Organization Website](http://thingSoC.github.io)
@@ -46,4 +52,4 @@ and an RGB LED for USER status, with additonal LEDS for Battery Charger Status a
 ---------------------------------------
 
 [![Image](http://thingsoc.github.io/img/projects/thingSoC/thingSoC_thumb.png?raw=true)  
-*thingSoC*](http://thingsoc.github.io)
+*thingSoC*](http://thingsoc.github.io) 
