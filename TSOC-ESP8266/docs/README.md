@@ -11,11 +11,11 @@ and a Color RGB LED for USER status, with additonal, individual LEDS for Battery
 
 ## Documentation Index <a name="documentation_index"/>
 
-[TSOC-ESP8266 Quick Start Guide](TSOC-ESP8266_qsg.md)
+[TSOC-ESP8266 Quick Start Guide](https://github.com/PatternAgents/TSOC-ESP8266/blob/master/TSOC-ESP8266/docs/TSOC-ESP8266_qsg.md)
 
-[TSOC-ESP8266 Getting Started Guide](TSOC-ESP8266_ug.md)
+[TSOC-ESP8266 Getting Started Guide](https://github.com/PatternAgents/TSOC-ESP8266/blob/master/TSOC-ESP8266/docs/TSOC-ESP8266_ug.md)
 
-[TSOC-ESP8266 Theory of Operation](TSOC-ESP8266_theory.md)
+[TSOC-ESP8266 Theory of Operation](https://github.com/PatternAgents/TSOC-ESP8266/blob/master/TSOC-ESP8266/docs/TSOC-ESP8266_theory.md)
 
 [thingSoC Organization Website](http://thingSoC.github.io)
 
