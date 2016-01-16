@@ -19,6 +19,8 @@
 
 ## Documentation Index <a name="documentation_index"/>
 
+[TSOC-ESP8266 Quick Start Guide](TSOC-ESP8266_qsg.md)
+
 [TSOC-ESP8266 Getting Started Guide](TSOC-ESP8266_ug.md)
 
 [TSOC-ESP8266 Theory of Operation](TSOC-ESP8266_theory.md)
@@ -31,5 +33,6 @@
 
 ---------------------------------------
 
-![Image](http://thingsoc.github.io/img/projects/thingSoC/thingSoC_thumb.png?raw=true)[*thingSoC*](http://thingsoc.github.io)
+[![Image](http://thingsoc.github.io/img/projects/thingSoC/thingSoC_thumb.png?raw=true)  
+*thingSoC*](http://thingsoc.github.io) 
  

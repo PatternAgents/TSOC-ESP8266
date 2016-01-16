@@ -10,6 +10,8 @@
 
 ## Documentation Index <a name="documentation_index"/>
 
+[TSOC-ESP8266 Quick Start Guide](TSOC-ESP8266_qsg.md)
+
 [TSOC-ESP8266 Getting Started Guide](TSOC-ESP8266_ug.md)
 
 [TSOC-ESP8266 Theory of Operation](TSOC-ESP8266_theory.md)
