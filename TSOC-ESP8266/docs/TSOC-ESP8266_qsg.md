@@ -23,7 +23,7 @@ The **TSOC-ESP8266**  Quick Start Guide is a series of quick steps to try out yo
 
 [TSOC-ESP8266 Quick Start Guide](https://github.com/PatternAgents/TSOC-ESP8266/blob/master/TSOC-ESP8266/docs/TSOC-ESP8266_qsg.md)
 
-[TSOC-ESP8266 Getting Started Guide](https://github.com/PatternAgents/TSOC-ESP8266/blob/master/TSOC-ESP8266/docs/TSOC-ESP8266_ug.md)
+[TSOC-ESP8266 User Guide](https://github.com/PatternAgents/TSOC-ESP8266/blob/master/TSOC-ESP8266/docs/TSOC-ESP8266_ug.md)
 
 [TSOC-ESP8266 Theory of Operation](https://github.com/PatternAgents/TSOC-ESP8266/blob/master/TSOC-ESP8266/docs/TSOC-ESP8266_theory.md)
 
