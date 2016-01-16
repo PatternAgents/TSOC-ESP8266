@@ -7,13 +7,13 @@
 ## Theory of Operation <a name="theory_index"/>
 
 
-![Schematic Page A](docs/sch_page_1.png?raw=true "Schematic Page A")
+![Schematic Page A](docs/images/sch_page_1.png?raw=true "Schematic Page A")
 
-![Schematic Page B](docs/sch_page_1.png?raw=true)
+![Schematic Page B](docs/images/sch_page_2.png?raw=true "Schematic Page B")
 
-![Schematic Page C](docs/sch_page_1.png?raw=true)
+![Schematic Page C](docs/images/sch_page_3.png?raw=true "Schematic Page C")
 
-![Schematic Page D](docs/sch_page_1.png?raw=true)
+![Schematic Page D](docs/images/sch_page_4.png?raw=true "Schematic Page D")
 
 ---------------------------------------
 
