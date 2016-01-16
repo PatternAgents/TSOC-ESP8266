@@ -6,6 +6,15 @@
 
 ## Theory of Operation <a name="theory_index"/>
 
+
+![Schematic Page A](docs/sch_page_1.png?raw=true "Schematic Page A")
+
+![Schematic Page B](docs/sch_page_1.png?raw=true)
+
+![Schematic Page C](docs/sch_page_1.png?raw=true)
+
+![Schematic Page D](docs/sch_page_1.png?raw=true)
+
 ---------------------------------------
 
 ## Documentation Index <a name="documentation_index"/>
@@ -22,6 +31,5 @@
 
 ---------------------------------------
 
-[![Image](http://thingsoc.github.io/img/projects/thingSoC/thingSoC_thumb.png?raw=true)  
-*thingSoC*](http://thingsoc.github.io)
+![Image](http://thingsoc.github.io/img/projects/thingSoC/thingSoC_thumb.png?raw=true)[*thingSoC*](http://thingsoc.github.io)
  
