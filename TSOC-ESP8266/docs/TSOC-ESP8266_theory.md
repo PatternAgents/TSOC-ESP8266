@@ -52,11 +52,11 @@ The **TSOC-ESP8266** was designed to support either USB powered operation and/or
 
 [TSOC-ESP8266 Theory of Operation](TSOC-ESP8266_theory.md)
 
-[For ESP8266 Documentation, esp. IDE/toolchain](https://github.com/esp8266/Arduino)
-
 [thingSoC Organization Website](http://thingSoC.github.io)
 
 [thingSoC FAQ - Frequently Asked Questions](http://thingsoc.github.io/support/faq.html)
+
+[ESP8266 Community](https://github.com/esp8266/Arduino)
 
 ---------------------------------------
 
