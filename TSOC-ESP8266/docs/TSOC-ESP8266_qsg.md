@@ -11,7 +11,7 @@ The **TSOC-ESP8266**  Quick Start Guide is a series of quick steps to try out yo
    to the TSOC-ESP8266. You can also use a charged Li-Po battery if you prefer.
 2. Open your Wi-Fi Setting and look for the "TSOC-ESP8266" Wi-Fi SSID,
    and connect to the TSOC-ESP8266 (open/no password/security settings).
-3. Open you web browser and connect to the URL - http://www.TSOC-ESP8266.local
+3. Open your web browser and connect to the URL - http://www.TSOC-ESP8266.local
 4. Follow the instructions on your sreeen to configure the TSOC-ESP8266 for your network and application.
 
 [![thingSoC TSOC-ESP8266](http://patternagents.github.io/img/projects/TSOC-ESP8266/TSOC-ESP8266_top.png)  
