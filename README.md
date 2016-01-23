@@ -46,7 +46,12 @@ including Wi-Fi to RS-232, RS-485, GSM, GPS, BLTE, motor control, analog sensors
 ![thingSoC TSOC-ESP8266](http://patternagents.github.io/img/projects/TSOC-ESP8266/TSOC-ESP8266-2.jpg "TSOC-ESP8266")
 
 ---------------------------------------
+## Project Status
 
+* 01/10/2016 : First Prototypes Completed (Rev 1.0)</li>
+* 01/15/2016 : Functional Testing  Completed, first Arduino Board file tested</li>
+
+---------------------------------------
 ## Documentation Index <a name="documentation_index"/>
 
 [TSOC-ESP8266 Quick Start Guide](https://github.com/PatternAgents/TSOC-ESP8266/blob/master/TSOC-ESP8266/docs/TSOC-ESP8266_qsg.md)
