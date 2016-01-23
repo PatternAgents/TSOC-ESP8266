@@ -34,9 +34,18 @@ including Wi-Fi to RS-232, RS-485, GSM, GPS, BLTE, motor control, analog sensors
 * Internal Antenna and U.FL external Antenna Support
 
 ---------------------------------------
-3D Model (Sketchup)
+## 3D Model (Sketchup)
 
 [![thingSoC TSOC-ESP8266](http://patternagents.github.io/img/projects/TSOC-ESP8266/TSOC-ESP8266_iso.png)  
+*TSOC-ESP8266*](https://github.com/PatternAgents/TSOC-ESP8266/)
+
+---------------------------------------
+## Pictures
+
+[![thingSoC TSOC-ESP8266](http://patternagents.github.io/img/projects/TSOC-ESP8266/TSOC-ESP8266_1.png)  
+*TSOC-ESP8266*](https://github.com/PatternAgents/TSOC-ESP8266/)
+
+[![thingSoC TSOC-ESP8266](http://patternagents.github.io/img/projects/TSOC-ESP8266/TSOC-ESP8266_2.png)  
 *TSOC-ESP8266*](https://github.com/PatternAgents/TSOC-ESP8266/)
 
 ---------------------------------------
