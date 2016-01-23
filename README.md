@@ -7,9 +7,12 @@ along with an [PCA8575 I/O Expander](http://www.nxp.com/documents/data_sheet/PCA
 to provide an additional 16 Input/Output pins for the [thingSoC Standard Socket](http://www.thingsoc.com/), and a Color RGB LED for USER status, 
 with additonal, individual LEDS for Battery Charger Status and USB Status.
 
+The TSOC-ESP8266 accepts any thingSoC or Mikrobus module, to provide Wi-Fi to "almost anything" as a bridge,
+including Wi-Fi to RS-232, RS-485, GSM, GPS, BLTE, motor control, analog sensors, and much more.
+ 
 ---------------------------------------
 
-[![thingSoC TSOC-ESP8266](http://patternagents.github.io/img/projects/TSOC-ESP8266/TSOC-ESP8266_top.png)  
+[![thingSoC TSOC-ESP8266](http://patternagents.github.io/img/projects/TSOC-ESP8266/TSOC-ESP8266.png)  
 *TSOC-ESP8266*](https://github.com/PatternAgents/TSOC-ESP8266/)
 
 * [Supported by the Arduino IDE](https://www.arduino.cc/) 
@@ -29,6 +32,12 @@ with additonal, individual LEDS for Battery Charger Status and USB Status.
 * Wi-Fi Direct (P2P), soft-AP
 * Integrated TCP/IP protocol stack
 * Internal Antenna and U.FL external Antenna Support
+
+---------------------------------------
+3D Model (Sketchup)
+
+[![thingSoC TSOC-ESP8266](http://patternagents.github.io/img/projects/TSOC-ESP8266/TSOC-ESP8266_iso.png)  
+*TSOC-ESP8266*](https://github.com/PatternAgents/TSOC-ESP8266/)
 
 ---------------------------------------
 
