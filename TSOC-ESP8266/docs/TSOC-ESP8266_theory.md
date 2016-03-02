@@ -49,6 +49,10 @@ an undervoltage, overvoltage, or overcurrent condition. The !5V0_FAULT signal is
 and is used to disable U5, the 3.3 Volt reulator. U5 a [MIC5219](http://www.micrel.com/_PDF/mic5219.pdf) Low DropOut Regualtor (LDO),
 is used to provide the 3.3 Volt power rail.
 
+U1 , a [MCP73831](http://www.microchip.com/wwwproducts/en/en024903) , is a tiny 500mA linear battery charger, used to charge the battery when
+USB1 is connected and power is provided to USB1_VBUS. Battery Charger U1 is only enabled after USB enumeration and ower arbitration by the 
+BCD0 (Battery Charger Detect) signal, coming from the U4, the USB-UART interface device.
+
 ![Schematic Page A](https://raw.githubusercontent.com/PatternAgents/TSOC-ESP8266/master/TSOC-ESP8266/docs/images/sch_page_1.png "Schematic Page A")
 
 ### Page B : <a name="PAGEB"/>
