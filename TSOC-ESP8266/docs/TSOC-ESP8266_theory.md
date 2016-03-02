@@ -55,6 +55,8 @@ U1, a [MCP73831](http://www.microchip.com/wwwproducts/en/en024903) , is a tiny 5
 USB1 is connected and power is provided to USB1_VBUS. Battery Charger U1 is only enabled after USB enumeration and ower arbitration by the 
 BCD0 (Battery Charger Detect) signal, coming from the U4, the USB-UART interface device.
 
+![Schematic Page A](https://raw.githubusercontent.com/PatternAgents/TSOC-ESP8266/master/TSOC-ESP8266/docs/images/sch_page_1.png "Schematic Page A")
+
 Limitations: 
 
 1) The TSOC-ESP8266 is primarily a 3.3 Volt system, and not all pins are 5V tolerant. 
@@ -63,9 +65,7 @@ Limitations:
    as there is no "boost" regulator circuitry included. If 5V power is needed for peripheral
    boards and sensors, it is suggested to use an external USB battery system instead of a single cell Li-Po battery.
    
-
-![Schematic Page A](https://raw.githubusercontent.com/PatternAgents/TSOC-ESP8266/master/TSOC-ESP8266/docs/images/sch_page_1.png "Schematic Page A")
-
+   
 ### Page B : <a name="PAGEB"/>
 
 ![Schematic Page B](https://raw.githubusercontent.com/PatternAgents/TSOC-ESP8266/master/TSOC-ESP8266/docs/images/sch_page_2.png "Schematic Page B")
