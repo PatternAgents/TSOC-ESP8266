@@ -66,7 +66,20 @@ Limitations:
    boards and sensors, it is suggested to use an external USB battery system instead of a single cell Li-Po battery.
    
    
-### Page B : <a name="PAGEB"/>
+### Page B : USB to UART Bridge Controller <a name="PAGEB"/>
+
+U4, a [CY7C65213](http://www.cypress.com/file/139881/download), 
+is an integrated USB-to-UART bridge device that provides the USB-to-UART
+function with a minimal number of components.
+[CY7C65213](http://www.cypress.com/file/139881/download), includes a USB 2.0 Full-Speed
+controller, a UART transceiver, an internal regulator, an internal
+oscillator, and a 512-byte flash in a 28-pin SSOP package.
+The internal flash is used to store custom-specific USB
+descriptors and GPIO configuration. This is done in-system
+using a configuration utility that communicates over the USB
+interface. The [CY7C65213](http://www.cypress.com/file/139881/download),
+implements the USB2.1 BCD (Battery Charger Detect) protocol,
+and only enabels the battery charger after USB enumeration is complete.
 
 ![Schematic Page B](https://raw.githubusercontent.com/PatternAgents/TSOC-ESP8266/master/TSOC-ESP8266/docs/images/sch_page_2.png "Schematic Page B")
 
