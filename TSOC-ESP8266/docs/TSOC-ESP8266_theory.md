@@ -47,13 +47,20 @@ enabling USB1_VBUS to apply power to U2 (VIN).
 
 U2, a [NCP361](http://www.onsemi.com/pub_link/Collateral/NCP361-D.PDF) , is a USB VBUS protection device, with an error output flag to indicate
 an undervoltage, overvoltage, or overcurrent condition. The !5V0_FAULT (error flag) signal is active low, 
-and is used to disable U5, the 3.3 Volt reulator. U5 a [MIC5219](http://www.micrel.com/_PDF/mic5219.pdf) Low DropOut Regualtor (LDO),
+and is used to disable U5, the 3.3 Volt reulator. U5 a [MIC5219](http://www.micrel.com/_PDF/mic5219.pdf) Low DropOut Regulator (LDO),
 is used to provide the 3.3 Volt power rail. The power protection scheme is much faster (5/1000 of a second) more efficient than chemical
 or resetable fuses, such as the PPTC fuse normally used for USB power on the typical Arduino board.
 
 U1, a [MCP73831](http://www.microchip.com/wwwproducts/en/en024903) , is a tiny 500mA linear battery charger, used to charge the battery when
 USB1 is connected and power is provided to USB1_VBUS. Battery Charger U1 is only enabled after USB enumeration and ower arbitration by the 
 BCD0 (Battery Charger Detect) signal, coming from the U4, the USB-UART interface device.
+
+Limitations: 
+1) The TSOC-ESP8266 is primarily a 3.3 Volt system, and not all pins are 5V tolerant. 
+2) When using single cell Li-Po battery power, the 5V output power pin may be as low as 3.45 Volts,
+   as there is no "boost" regulator circuitry included. If 5V power is needed for peripheral
+   boards and sensors, it is suggested to use an external USB battery system instead of a single cell Li-Po.
+   
 
 ![Schematic Page A](https://raw.githubusercontent.com/PatternAgents/TSOC-ESP8266/master/TSOC-ESP8266/docs/images/sch_page_1.png "Schematic Page A")
 
