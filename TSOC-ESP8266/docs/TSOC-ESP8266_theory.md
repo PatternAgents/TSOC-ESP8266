@@ -36,11 +36,21 @@ The **TSOC-ESP8266** supports a single "thingSoC" socket with 3.3 Volt Level sig
 It was designed to support both USB powered/tethered operation,
 as well as 3.7 Volt single cell Li-Po battery powered operation.
 
-### Page A <a name="PAGEA"/>
+### Page A : USB Connector, Bttery Conector and Power Supply<a name="PAGEA"/>
+
+Q1, a [FDC6420C](https://www.fairchildsemi.com/datasheets/FD/FDC6420C.pdf) , is a complementary (N-Channel and P-Channel) power MOSFET 
+used to select between [USB Power](https://en.wikipedia.org/wiki/USB#USB_Power_Delivery) and an external 3.7 Volt single-cell Li-Po battery
+as the primary power input.
+
+U2 , a [NCP361](http://www.onsemi.com/pub_link/Collateral/NCP361-D.PDF) , is a USB VBUS protection device, with an error output flag to indicate
+an undervoltage, overvoltage, or overcurrent condition. The !5V0_FAULT signal is active low, 
+and is used to disable U5, the 3.3 Volt reulator. U5 a [MIC5219](http://www.micrel.com/_PDF/mic5219.pdf) Low DropOut Regualtor (LDO),
+is used to provide the 3.3 Volt power rail.
+
 
 ![Schematic Page A](https://raw.githubusercontent.com/PatternAgents/TSOC-ESP8266/master/TSOC-ESP8266/docs/images/sch_page_1.png "Schematic Page A")
 
-### Page B <a name="PAGEB"/>
+### Page B : <a name="PAGEB"/>
 
 ![Schematic Page B](https://raw.githubusercontent.com/PatternAgents/TSOC-ESP8266/master/TSOC-ESP8266/docs/images/sch_page_2.png "Schematic Page B")
 
