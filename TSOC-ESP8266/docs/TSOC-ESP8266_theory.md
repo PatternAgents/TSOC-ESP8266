@@ -36,7 +36,7 @@ The **TSOC-ESP8266** supports a single "thingSoC" socket with 3.3 Volt Level sig
 It was designed to support both USB powered/tethered operation,
 as well as 3.7 Volt single cell Li-Po battery powered operation.
 
-### Page A : USB Connector, Battery Conector and Power Supply<a name="PAGEA"/>
+### Page A : USB Connector, Battery Connector and Power Supply<a name="PAGEA"/>
 
 Q1, a [FDC6420C](https://www.fairchildsemi.com/datasheets/FD/FDC6420C.pdf) , is a complementary (N-Channel and P-Channel) power MOSFET 
 used to select between [USB Power](https://en.wikipedia.org/wiki/USB#USB_Power_Delivery) and an external 3.7 Volt single-cell Li-Po battery
