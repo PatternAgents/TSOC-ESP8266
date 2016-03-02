@@ -61,7 +61,7 @@ Limitations:
 
 2) When using single cell Li-Po battery power, the 5V output power pin may be as low as 3.45 Volts,
    as there is no "boost" regulator circuitry included. If 5V power is needed for peripheral
-   boards and sensors, it is suggested to use an external USB battery system instead of a single cell Li-Po.
+   boards and sensors, it is suggested to use an external USB battery system instead of a single cell Li-Po battery.
    
 
 ![Schematic Page A](https://raw.githubusercontent.com/PatternAgents/TSOC-ESP8266/master/TSOC-ESP8266/docs/images/sch_page_1.png "Schematic Page A")
