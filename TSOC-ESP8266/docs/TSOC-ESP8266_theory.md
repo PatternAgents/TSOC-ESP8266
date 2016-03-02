@@ -39,18 +39,19 @@ as well as 3.7 Volt single cell Li-Po battery powered operation.
 ### Page A : USB Connector, Battery Connector and Power Supply<a name="PAGEA"/>
 
 Q1, a [FDC6420C](https://www.fairchildsemi.com/datasheets/FD/FDC6420C.pdf) , is a complementary (N-Channel and P-Channel) power MOSFET 
-used to select between [USB Power](https://en.wikipedia.org/wiki/USB#USB_Power_Delivery) and an external 3.7 Volt single-cell Li-Po battery
-as the primary power input. Resistor, R6 is used to "pull-down" the GATE of Q1P, turning it on, and enabling the battery (VBAT) to apply power to U2 (VIN).
+used to select between [USB Power](https://en.wikipedia.org/wiki/USB#USB_Power_Delivery) and an external 3.7 Volt single-cell 
+[Li-Po battery](https://en.wikipedia.org/wiki/Lithium_polymer_battery) as the primary power input. 
+[Resistor, R6 is used to "pull-down" the GATE of Q1P, turning it on, and enabling the battery (VBAT) to apply power to U2 (VIN).
 If USB1 is connected and power is provided to USB1_VBUS, then Resistor R4 powers the GATE of Q1N, turning it on (and turning Q1P off...),
 enabling USB1_VBUS to apply power to U2 (VIN).
 
-U2 , a [NCP361](http://www.onsemi.com/pub_link/Collateral/NCP361-D.PDF) , is a USB VBUS protection device, with an error output flag to indicate
+U2, a [NCP361](http://www.onsemi.com/pub_link/Collateral/NCP361-D.PDF) , is a USB VBUS protection device, with an error output flag to indicate
 an undervoltage, overvoltage, or overcurrent condition. The !5V0_FAULT (error flag) signal is active low, 
 and is used to disable U5, the 3.3 Volt reulator. U5 a [MIC5219](http://www.micrel.com/_PDF/mic5219.pdf) Low DropOut Regualtor (LDO),
 is used to provide the 3.3 Volt power rail. The power protection scheme is much faster (5/1000 of a second) more efficient than chemical
 or resetable fuses, such as the PPTC fuse normally used for USB power on the typical Arduino board.
 
-U1 , a [MCP73831](http://www.microchip.com/wwwproducts/en/en024903) , is a tiny 500mA linear battery charger, used to charge the battery when
+U1, a [MCP73831](http://www.microchip.com/wwwproducts/en/en024903) , is a tiny 500mA linear battery charger, used to charge the battery when
 USB1 is connected and power is provided to USB1_VBUS. Battery Charger U1 is only enabled after USB enumeration and ower arbitration by the 
 BCD0 (Battery Charger Detect) signal, coming from the U4, the USB-UART interface device.
 
