@@ -56,7 +56,9 @@ USB1 is connected and power is provided to USB1_VBUS. Battery Charger U1 is only
 BCD0 (Battery Charger Detect) signal, coming from the U4, the USB-UART interface device.
 
 Limitations: 
+
 1) The TSOC-ESP8266 is primarily a 3.3 Volt system, and not all pins are 5V tolerant. 
+
 2) When using single cell Li-Po battery power, the 5V output power pin may be as low as 3.45 Volts,
    as there is no "boost" regulator circuitry included. If 5V power is needed for peripheral
    boards and sensors, it is suggested to use an external USB battery system instead of a single cell Li-Po.
