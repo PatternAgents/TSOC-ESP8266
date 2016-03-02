@@ -32,13 +32,23 @@ and a Color RGB LED for USER status, with additonal, individual LEDS for Battery
 
 ## Theory of Operation <a name="theory_index"/>
 
-The **TSOC-ESP8266** was designed to support either USB powered operation and/or battery powered operation.
+The **TSOC-ESP8266** supports a single "thingSoC" socket with 3.3 Volt Level signaling.
+It was designed to support both USB powered/tethered operation,
+as well as 3.7 Volt single cell Li-Po battery powered operation.
+
+### Page A <a name="PAGEA"/>
 
 ![Schematic Page A](https://raw.githubusercontent.com/PatternAgents/TSOC-ESP8266/master/TSOC-ESP8266/docs/images/sch_page_1.png "Schematic Page A")
 
+### Page B <a name="PAGEB"/>
+
 ![Schematic Page B](https://raw.githubusercontent.com/PatternAgents/TSOC-ESP8266/master/TSOC-ESP8266/docs/images/sch_page_2.png "Schematic Page B")
 
+### Page C <a name="PAGEC"/>
+
 ![Schematic Page C](https://raw.githubusercontent.com/PatternAgents/TSOC-ESP8266/master/TSOC-ESP8266/docs/images/sch_page_3.png "Schematic Page C")
+
+### Page D <a name="PAGED"/>
 
 ![Schematic Page D](https://raw.githubusercontent.com/PatternAgents/TSOC-ESP8266/master/TSOC-ESP8266/docs/images/sch_page_4.png "Schematic Page D")
 
